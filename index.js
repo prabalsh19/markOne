@@ -7,7 +7,7 @@ function welcome() {
 const highestScore = [{ name: 'Arun', score: "3" },
 { name: 'Rahul', score: '2' }, { name: 'Viraj', score: 0 }]
 
-const questions = [{ question: "What is my fav color? ", answer: "White" }, { question: "Where Do I Live? ", answer: "Bhopal" }, { question: "His fav activity ", answer: "Listening to youtube videos" },{question:"Which course am I pursuing? ",answer:"BCA"},{question:"Where was I born? ",answer:"Guna"},{question:"Which college I go to? ",answer:"LNCT"}]
+const questions = [{ question: "What is my fav color? ", answer: "White" }, { question: "Where Do I Live? ", answer: "Bhopal" }, { question: "His fav activity ", answer: "Gym" },{question:"Which course am I pursuing? ",answer:"BCA"},{question:"Where was I born? ",answer:"Guna"},{question:"Which college I go to? ",answer:"LNCT"}]
 
 const play = () => {
   for (const question in questions) {
